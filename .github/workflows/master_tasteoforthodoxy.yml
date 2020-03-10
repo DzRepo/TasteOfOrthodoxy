@@ -21,4 +21,3 @@ jobs:
         app-name: 'tasteoforthodoxy'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_0b2fa0d6929d4a5584379370719bb745 }}
-        package: './myapp.zip'
