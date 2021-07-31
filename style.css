@@ -161,12 +161,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -203,18 +197,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -301,20 +283,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .h2-hero{
 	opacity:0.8;
-	color:#0B4F9E!important;
-	font-weight:500;
-	line-height:44px;
+	color:#CE1A22!important;
+	font-weight:100;
+	line-height:45px;
 	font-family:"helvetica";
-	text-align:justify;
+	text-align:center;
 	box-shadow:0px 0px 0px #000000;
 	font-size:40px;
+	float:none;
+	overflow:visible;
 	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	padding:10px 10px 10px 10px;
 }
 .h3-style{
-	font-size:40px;
 	text-align:center;
-	font-weight:700;
+	font-weight:500;
+	font-size:40px;
 }
 .h4-hero{
 	font-size:30px;
@@ -353,10 +337,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	font-weight:500;
 	text-transform:none;
 	text-align:center;
-}
-.img-too{
-	width:50%;
-	height:50%;
 }
 .html-widget-0-style{
 	width:100%;
@@ -410,7 +390,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	width:90%;
 }
 .img-cube{
-	;
+	padding:25px 25px 25px 25px;
 }
 .img-dance{
 	width:100%;
@@ -426,6 +406,9 @@ p{
 .p-faith{
 	color:#FEFFFE!important;
 }
+.img-too{
+	padding:10px 10px 10px 10px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -435,9 +418,6 @@ p{
 
 .bg-ToO-bkg{
 	background-image:url("img/ToO_bkg.jpg");
-}
-.bg-Zorba-girls{
-	background-image:url("img/Zorba_girls.jpg");
 }
 
 
@@ -507,9 +487,9 @@ p{
 @media (max-width: 991px){
 	.h2-hero{
 		font-size:40px;
-		line-height:50px;
-		width:100%;
 		text-align:center;
+		line-height:30px;
+		padding-top:10px;
 	}
 	.button{
 		text-shadow:2px 2px 8px #000000;
@@ -539,11 +519,6 @@ p{
 		padding-left:20px;
 		line-height:70px;
 	}
-	.img-too{
-		width:600px;
-		margin-top:100px;
-		border-radius:0px 0px 0px 0px;
-	}
 	.img-too-type-n-style{
 		width:60px;
 	}
@@ -553,10 +528,10 @@ p{
 		font-weight:900;
 	}
 	.h3-style{
-		font-size:26px;
 		font-weight:700;
-		margin:0px 0px 0px 0px;
-		padding:0px 0px 0px 0px;
+		font-size:30px;
+		line-height:30px;
+		padding:5px 5px 5px 5px;
 	}
 	.h4-cube{
 		font-size:22px;
@@ -576,13 +551,21 @@ p{
 		font-size:38px;
 	}
 	.img-cube{
-		;
+		padding:5px 5px 5px 5px;
 	}
 	.h4-dance{
 		font-size:22px;
 	}
 	.h4-faith{
 		font-size:28px;
+	}
+	.img-too{
+		padding-bottom:0px;
+	}
+	
+	/* MD Row Margin Offsets */
+	.voffset-clear-md{
+		margin-top:0;
 	}
 	
 }
@@ -592,8 +575,8 @@ p{
 		font-size:27px;
 	}
 	.h2-hero{
-		font-size:37px;
 		line-height:20px;
+		font-size:30px;
 	}
 	.h6-style{
 		font-size:90px;
@@ -643,15 +626,16 @@ p{
 		font-size:18px;
 	}
 	.img-too{
-		padding-top:0px;
+		margin-bottom:0px;
+		padding-bottom:0px;
 	}
 	
 }
 
 @media (max-width: 575px){
 	.h2-hero{
-		font-size:30px;
-		line-height:34px;
+		font-size:25px;
+		line-height:24px;
 		padding-left:0px;
 		margin-left:0px;
 		width:100%;
@@ -711,9 +695,6 @@ p{
 	.img-cube{
 		margin:0px 0px 0px 0px;
 		padding:0px 0px 0px 0px;
-	}
-	.img-too{
-		width:600px;
 	}
 	
 }
