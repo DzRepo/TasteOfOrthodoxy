@@ -48,26 +48,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .row{
-	margin-left:0;
-	margin-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
-}
-
 
 /* Background Styles */
 
@@ -284,9 +264,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .h2-hero{
 	opacity:0.8;
 	color:#CE1A22!important;
-	font-weight:100;
+	font-weight:700;
 	line-height:45px;
-	font-family:"helvetica";
+	font-family:"Berkshire Swash";
 	text-align:center;
 	box-shadow:0px 0px 0px #000000;
 	font-size:40px;
@@ -297,8 +277,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .h3-style{
 	text-align:center;
-	font-weight:500;
-	font-size:40px;
+	font-weight:600;
+	font-size:30px;
+	padding-left:10%;
+	padding-right:10%;
 }
 .h4-hero{
 	font-size:30px;
@@ -407,6 +389,7 @@ p{
 	color:#FEFFFE!important;
 }
 .img-too{
+	width:100%;
 	padding:10px 10px 10px 10px;
 }
 
@@ -418,6 +401,9 @@ p{
 
 .bg-ToO-bkg{
 	background-image:url("img/ToO_bkg.jpg");
+}
+.bg-Zorba-girls{
+	background-image:url("img/Zorba_girls.jpg");
 }
 
 
@@ -587,6 +573,7 @@ p{
 	.h3-style{
 		font-size:24px;
 		margin-top:15px;
+		padding:0px 0px 0px 0px;
 	}
 	.h1-opa{
 		color:rgba(255,0,0,0.3)!important;
@@ -601,7 +588,7 @@ p{
 	.img-cube{
 		width:100%;
 		margin:0px 0px 0px 0px;
-		padding:20px 20px 20px 20px;
+		padding:5px 5px 5px 5px;
 	}
 	.button{
 		background-position:left center;
@@ -680,7 +667,10 @@ p{
 	}
 	.h3-style{
 		font-size:20px;
-		padding:0px 0px 0px 0px;
+		line-height:22px;
+		padding-top:0px;
+		padding-bottom:0px;
+		margin:0px 0px 10px 0px;
 	}
 	.h1-hero{
 		font-size:60px;
