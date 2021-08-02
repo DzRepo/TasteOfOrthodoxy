@@ -21,6 +21,33 @@ a:hover{text-decoration: none; cursor:pointer;}
 .page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
 
+/* my fonts ---------------------------- */
+
+@font-face {
+   font-family: LithosExtraLight;
+   src: url(fonts/LithosPro-ExtraLight.otf);
+}
+
+@font-face {
+   font-family: LithosLight;
+   src: url(fonts/LithosPro-Light.otf);
+}
+
+@font-face {
+   font-family: LithosRegular;
+   src: url(fonts/LithosPro-Regular.otf);
+}
+
+@font-face {
+   font-family: LithosBold;
+   src: url(fonts/LithosPro-Bold.otf);
+}
+
+@font-face {
+   font-family: LithosBlack;
+   src: url(fonts/LithosPro-Black.otf);
+}
+
 /* = Blocs
 -------------------------------------------------------------- */
 
