@@ -21,6 +21,34 @@ a:hover{text-decoration: none; cursor:pointer;}
 .page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
 
+/* my fonts ---------------------------- */
+
+@font-face {
+   font-family: LithosExtraLight;
+   src: url(fonts/LithosPro-ExtraLight.otf);
+}
+
+@font-face {
+   font-family: LithosLight;
+   src: url(fonts/LithosPro-Light.otf);
+}
+
+@font-face {
+   font-family: LithosRegular;
+   src: url(fonts/LithosPro-Regular.otf);
+}
+
+@font-face {
+   font-family: LithosBold;
+   src: url(fonts/LithosPro-Bold.otf);
+}
+
+@font-face {
+   font-family: LithosBlack;
+   src: url(fonts/LithosPro-Black.otf);
+}
+
+
 /* = Blocs
 -------------------------------------------------------------- */
 
@@ -273,10 +301,10 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
-	color:rgba(0,0,0,0.8)!important;
-}
-h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover{
+	font-family: myFirstFont;
+	src: url(fonts/LithosPro-Light.otf);
+	text-transform:none;
+	text-decoration:none;
 }
 h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
@@ -284,6 +312,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	;
 }
 .h2-style{
+	font-family: LithosBold;
 	font-size:40px;
 	padding-top:30px;
 }
@@ -292,7 +321,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	color:#CE1A22!important;
 	font-weight:700;
 	line-height:45px;
-	font-family:"Lobster Two";
+	font-family: LithosRegular;
 	text-align:center;
 	box-shadow:0px 0px 0px #000000;
 	font-size:40px;
@@ -309,7 +338,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	padding-right:10%;
 	text-shadow:2px -2px 4px #FFFFFF;
 	color:#000000!important;
-	font-family:"Lobster Two";
+	font-family: LithosRegular;
 	line-height:45px;
 }
 .h4-hero{
