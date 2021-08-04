@@ -48,7 +48,6 @@ a:hover{text-decoration: none; cursor:pointer;}
    src: url(fonts/LithosPro-Black.otf);
 }
 
-
 /* = Blocs
 -------------------------------------------------------------- */
 
@@ -303,66 +302,30 @@ button{
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family: myFirstFont;
 	src: url(fonts/LithosPro-Light.otf);
-	text-transform:none;
-	text-decoration:none;
+	color:rgba(0,0,0,0.80)!important;
+}
+h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover{
 }
 h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .container{
 	;
 }
-.h2-style{
-	font-family: LithosBold;
-	font-size:40px;
-	padding-top:30px;
-}
-.h2-hero{
+.my-h2{
 	opacity:0.8;
-	color:#CE1A22!important;
-	font-weight:700;
+	color:#B8232A!important;
+	font-weight:900;
 	line-height:45px;
 	font-family: LithosRegular;
 	text-align:center;
-	box-shadow:0px 0px 0px #000000;
-	font-size:40px;
+	font-size:35px;
 	float:none;
 	overflow:visible;
+	text-decoration:none;
+	text-transform:none;
+	letter-spacing:1px;
 	margin:0px 0px 0px 0px;
 	padding:10px 10px 10px 10px;
-}
-.h3-style{
-	text-align:center;
-	font-weight:500;
-	font-size:45px;
-	padding-left:10%;
-	padding-right:10%;
-	text-shadow:2px -2px 4px #FFFFFF;
-	color:#000000!important;
-	font-family: LithosRegular;
-	line-height:45px;
-}
-.h4-hero{
-	font-size:30px;
-	line-height:30px;
-	text-shadow:2px 2px 8px #000000;
-	color:rgba(255,255,255,0.8)!important;
-	margin-top:30px;
-}
-.h6-style{
-	font-family:"PT Sans Narrow";
-	font-weight:400;
-	color:#FFFFFF!important;
-	opacity:1.0;
-	font-size:120px;
-	text-indent:50px;
-	margin:0px 0px 100px 0px;
-}
-.p-style{
-	width:100%;
-	font-size:20px;
-}
-.p-white{
-	color:#FFFFFF!important;
 }
 .button{
 	background-position:center center;
@@ -379,24 +342,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	text-transform:none;
 	text-align:center;
 }
-.html-widget-0-style{
-	width:100%;
-}
-.my-menu-col{
-	;
+.my-nav-list{
+	font-family: LithosLight;
+	color:#FEFFFE!important;
+	font-size:16px;
+	font-family:"Lato";
+	font-weight:300;
+	letter-spacing:1px;
 }
 .my-nav-list a{
+	font-family: LithosBold;
 	color:#FFFFFF!important;
 }
 .my-nav-list a:hover{
+	font-family: LithosBold;
 	color:#FF0000!important;
 }
 .my-nav-list a:active{
 	color:#FF0000!important;
 }
 .link-style{
+	font-family: LithosBold;
 	color:#FFFFFF!important;
 	padding-top:10px;
+	font-size:25px;
+	letter-spacing:1px;
 }
 .link-style:hover{
 	color:#FF0000!important;
@@ -404,54 +374,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .link-style:active{
 	color:#FF0000!important;
 }
-.footer-link{
-	color:#FFFFFF!important;
-}
-.h1-hero{
-	font-weight:900;
-	font-size:125px;
-	color:rgba(0,0,0,0.90)!important;
-	line-height:110px;
-	padding-left:65px;
-}
-.h1-opa{
-	line-height:0px;
-	font-style:italic;
-	color:rgba(255,0,0,0.2)!important;
-	padding-right:45px;
-	font-size:200px;
-	font-family:"Abril Fatface";
-}
-.column-cube{
-	padding:10px 10px 10px 10px;
-}
-.h4-cube{
-	font-size:21px;
-	color:rgba(0,0,0,0.9)!important;
-	width:90%;
-}
 .img-cube{
 	width:100%;
 	margin:0px 0px 0px 0px;
 	padding:10px 10px 10px 10px;
 }
-.img-dance{
-	width:100%;
-}
-.p-bloc-20-style{
-	width:100%;
-}
-p{
-}
-.h4-faith{
-	font-size:32px;
-}
-.p-faith{
-	color:#FEFFFE!important;
-}
 .img-too{
 	width:100%;
 	padding-top:40px;
+}
+.my-h3{
+	font-family: LithosBold;
+	font-size:40px;
+	letter-spacing:1px;
+	line-height:40px;
+	font-weight:900;
+	color:#B8232A!important;
+}
+.white{
+	color:#FEFFFE!important;
 }
 
 /* = Colour
@@ -532,7 +473,7 @@ p{
 }
 
 @media (max-width: 991px){
-	.h2-hero{
+	.my-h2{
 		font-size:44px;
 		text-align:center;
 		line-height:30px;
@@ -544,67 +485,8 @@ p{
 		text-align:center;
 		display:block;
 	}
-	.h6-style{
-		margin-bottom:60px;
-		font-size:120px;
-	}
-	.mt-md-0{
-	}
-	.mt-md-4{
-	}
-	.column-cube-left{
-		width:50%;
-	}
-	.img-rectangle-right{
-		;
-	}
-	.h4-hero{
-		padding-left:20px;
-	}
-	.h1-hero{
-		font-size:90px;
-		padding-left:20px;
-		line-height:70px;
-	}
-	.img-too-type-n-style{
-		width:60px;
-	}
-	.h1-opa{
-		font-size:150px;
-		font-family:"Abril Fatface";
-		font-weight:900;
-	}
-	.h3-style{
-		font-weight:700;
-		line-height:40px;
-		font-size:38px;
-		padding:5px 5px 5px 5px;
-	}
-	.h4-cube{
-		font-size:22px;
-		width:100%;
-	}
-	.column-cube{
-		padding:5px 5px 5px 5px;
-	}
-	.h2-style{
-		width:100%;
-		padding-top:20px;
-	}
-	.img-dance{
-		width:100%;
-	}
-	.h2-faith{
-		font-size:38px;
-	}
 	.img-cube{
 		padding:5px 5px 5px 5px;
-	}
-	.h4-dance{
-		font-size:22px;
-	}
-	.h4-faith{
-		font-size:28px;
 	}
 	.img-too{
 		padding-bottom:0px;
@@ -619,33 +501,9 @@ p{
 }
 
 @media (max-width: 767px){
-	.h4-hero{
-		font-size:27px;
-	}
-	.h2-hero{
+	.my-h2{
 		line-height:20px;
 		font-size:40px;
-	}
-	.h6-style{
-		font-size:90px;
-	}
-	.column-cube-left{
-		width:100%;
-	}
-	.h3-style{
-		margin-top:15px;
-		font-size:40px;
-		padding:0px 0px 0px 0px;
-	}
-	.h1-opa{
-		color:rgba(255,0,0,0.3)!important;
-		font-size:120px;
-		text-align:right;
-	}
-	.h4-cube{
-		text-align:left;
-		width:100%;
-		font-size:19px;
 	}
 	.img-cube{
 		width:100%;
@@ -655,25 +513,6 @@ p{
 	.button{
 		background-position:left center;
 	}
-	.h2-style{
-		margin-top:0px;
-		padding-top:20px;
-	}
-	.h4-dance{
-		font-size:20px;
-	}
-	.h2-faith{
-		font-size:28px;
-	}
-	.p-white{
-	}
-	.h3-dance{
-		font-size:24px;
-	}
-	.h4-style{
-		opacity:0.6;
-		font-size:18px;
-	}
 	.img-too{
 		margin-bottom:0px;
 		padding-bottom:0px;
@@ -682,67 +521,16 @@ p{
 }
 
 @media (max-width: 575px){
-	.h2-hero{
+	.my-h2{
 		font-size:25px;
 		line-height:24px;
 		padding-left:0px;
 		margin-left:0px;
 		width:100%;
 	}
-	.h4-hero{
-		font-size:20px;
-		line-height:25px;
-	}
-	.footer-link{
-		text-align:center;
-	}
-	.h6-style{
-		font-size:70px;
-	}
-	.mt-1{
-	}
-	.h2-style{
-		font-size:30px;
-		padding-top:10px;
-	}
-	.p-style{
-		font-size:18px;
-	}
 	.link-style{
 		font-size:14px;
 		width:100%;
-	}
-	.h4-dance{
-		line-height:20px;
-		font-size:20px;
-	}
-	.h3-dance{
-		font-size:24px;
-	}
-	.h3-music{
-		font-size:25px;
-	}
-	.h2-faith{
-		font-size:24px;
-	}
-	.h4-faith{
-	}
-	.h3-style{
-		font-size:20px;
-		line-height:22px;
-		padding-top:0px;
-		padding-bottom:0px;
-		margin:0px 0px 10px 0px;
-	}
-	.h1-hero{
-		font-size:60px;
-		line-height:50px;
-	}
-	.column-cube{
-		text-align:center;
-	}
-	.h2-dance{
-		font-size:28px;
 	}
 	.img-cube{
 		margin:0px 0px 0px 0px;
