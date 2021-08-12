@@ -77,11 +77,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
+.bg-center{
+	-webkit-background-size: auto;
+}
 .bg-repeat{
 	background:repeat;
-}
-.bg-t-edge{
-	background: top no-repeat;
 }
 
 
@@ -313,6 +313,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:40px;
 	text-transform:none;
 	line-height:44px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	margin:10px 0px 0px 0px;
 }
 .my-hero-h2{
 	color:#B62329!important;
@@ -406,11 +410,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .bg-ToO-bkg{
 	background-image:url("img/ToO_bkg.jpg");
 }
-.bg-bkg-dance-1{
-	background-image:url("img/bkg_dance_1.png");
-}
-.bg-about-carl-faith{
-	background-image:url("img/about_carl_faith.jpg");
+.bg-dancer-bow-15-25{
+	background-image:url("img/dancer-bow_15%25.png");
 }
 
 
