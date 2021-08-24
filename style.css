@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ToO_2021
+	    ToO_cancelled
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -48,26 +48,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .row{
-	margin-left:0;
-	margin-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
-}
-
 
 /* Background Styles */
 
@@ -79,6 +59,60 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bg-repeat{
 	background:repeat;
+}
+.bg-t-edge{
+	background: top no-repeat;
+}
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
 }
 
 
@@ -308,9 +342,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -384,7 +415,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-style{
 	font-size:26px;
 	text-transform:none;
-	color:#FEFFFE!important;
+	color:#FFFFFF!important;
 	font-weight:bold;
 	margin-left:0px;
 	padding-left:0px;
@@ -395,62 +426,79 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .footer-link{
 	color:#FFFFFF!important;
-	margin-bottom:0px;
-}
-.my-h5{
-	color:rgba(255,255,255,0.80)!important;
-	font-size:20px;
-	line-height:24px;
 	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.my-h5-footer{
+	font-size:20px;
+	line-height:23px;
+	color:rgba(0,0,0,0.80)!important;
+	font-weight:lighter;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 15px;
 }
 .my-h4{
-	font-weight:normal;
-	color:#000000!important;
+	font-weight:bold;
+	color:#1A4384!important;
 	font-size:24px;
-	padding-top:5px;
-	line-height:28px;
+	line-height:27px;
 	text-align:left;
-	margin:0px 0px 10px 0px;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:10px 20px 0px 20px;
 }
 .my-h3{
 	color:#AC2429!important;
 	font-size:28px;
 	line-height:30px;
+	text-align:center;
+	font-weight:bold;
+	background-color:rgba(255,255,255,0.90);
 	margin:0px 0px 0px 0px;
+	padding:20px 0px 0px 0px;
 }
 .my-h2{
 	color:#223E92!important;
-	padding-top:15px;
 	font-size:36px;
 	line-height:40px;
-	margin-bottom:5px;
+	font-weight:normal;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 20px;
 }
 .my-hero-h1{
 	font-weight:normal;
 	color:#BC232A!important;
-	font-size:40px;
+	font-size:36px;
 	text-transform:none;
-	line-height:44px;
-	padding-right:0px;
-	padding-bottom:0px;
-	padding-left:0px;
-	margin:10px 0px 0px 0px;
+	line-height:39px;
+	text-align:center;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 10px 0px;
 }
 .my-hero-h2{
-	color:#B62329!important;
+	color:#1A4384!important;
 	text-transform:none;
 	font-size:36px;
 	line-height:40px;
 	font-weight:bold;
+	text-align:center;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 10px 0px;
 }
 .my-hero-h3{
-	font-weight:900;
+	font-weight:normal;
 	text-transform:none;
-	font-size:30px;
-	line-height:36px;
+	font-size:22px;
+	line-height:25px;
 	border-style:none;
 	color:#133276!important;
-	padding:0px 0px 0px 0px;
+	background-color:rgba(255,255,255,0.90);
+	text-align:center;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 5px 0px;
 }
 .link-style:hover{
 	color:#C5242A!important;
@@ -490,58 +538,102 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .white{
 	color:rgba(255,255,255,0.80)!important;
 }
-.my-caption{
-	font-family:"Open Sans Condensed";
-	font-weight:900;
-	font-size:200px;
-	color:#FFFFFF!important;
-	text-align:left;
-}
-.img-dancers{
-	text-align:left;
-	width:600px;
-}
-.img-banner{
-	width:100%;
-}
-.cube{
-	width:740px;
-}
-.item{
+.my-h5-indent{
 	font-size:20px;
+	font-weight:normal;
 	line-height:22px;
-	color:#1A4384!important;
-	font-weight:900;
-	margin:0px 0px 0px 0px;
-	padding:10px 0px 0px 0px;
-}
-.tickets{
-	text-align:right;
-}
-.ingredients{
-	font-size:18px;
-	font-weight:100;
-	line-height:20px;
 	color:rgba(0,0,0,0.80)!important;
+	background-color:rgba(255,255,255,0.90);
 	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 15px;
+	padding:0px 20px 5px 40px;
 }
-.h6-style{
+.img-cube{
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:20px 20px 20px 20px;
+}
+.my-hero-2{
+	font-size:34px;
+	line-height:37px;
+	color:#1A4384!important;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.img-too{
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:20px 20px 20px 20px;
+}
+.my-h5{
+	color:rgba(0,0,0,0.60)!important;
+	font-size:20px;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 20px 0px 20px;
+}
+.col-white{
+	background-color:rgba(255,255,255,0.90);
+}
+.row-menu{
+	overflow:visible;
+}
+.img-food{
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 10px 10px 20px;
+}
+.img-dance{
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 20px 10px 10px;
+}
+.img-music{
+	background-color:rgba(255,255,255,0.90);
+	padding:10px 10px 20px 20px;
+}
+.img-faith{
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:10px 20px 20px 10px;
+}
+.my-h6{
+	font-size:16px;
+	line-height:18px;
+	font-weight:normal;
+	color:rgba(0,0,0,0.80)!important;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:0px 20px 0px 20px;
+}
+.lighter{
+	font-weight:normal;
+}
+.img-troupes{
 	width:100%;
-}
-.menu-category{
-	color:#AC2429!important;
-	font-weight:900;
-	text-align:center;
+	background-color:rgba(255,255,255,0.90);
 	margin:0px 0px 0px 0px;
-	padding:20px 0px 0px 0px;
+	padding:20px 20px 20px 20px;
 }
-.light{
-	font-weight:100;
+.my-h5-culture{
+	color:rgba(0,0,0,0.80)!important;
+	line-height:24px;
+	font-size:19px;
+	background-color:rgba(255,255,255,0.90);
+	margin:0px 0px 0px 0px;
+	padding:10px 10px 10px 20px;
 }
 .img-style{
-	width:740px;
-	height:740px;
+	width:300px;
+	height:300px;
+}
+.cancel{
+	background-color:rgba(255,255,255,0.90);
+	text-align:center;
+	color:#1A4384!important;
+	font-size:40px;
+	line-height:44px;
+	padding:30px 30px 30px 30px;
 }
 
 /* = Colour
@@ -559,8 +651,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .bg-ToO-bkg{
 	background-image:url("img/ToO_bkg.jpg");
 }
-.bg-dancer-bow-15-25{
-	background-image:url("img/dancer-bow_15%25.png");
+.bg-dance-troupe-Dancing-Zorbas{
+	background-image:url("img/dance-troupe_Dancing-Zorbas.jpg");
+}
+.bg-dance-troupe-Fotia-Dancers{
+	background-image:url("img/dance-troupe_Fotia-Dancers.jpg");
 }
 
 
@@ -632,6 +727,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 		line-height:26px;
 		font-size:22px;
 		text-align:left;
+		padding-top:10px;
 	}
 	.my-nav-list{
 		font-size:14px;
@@ -640,49 +736,52 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 		text-align:right;
 	}
 	.my-h3{
-		margin-bottom:10px;
-		font-size:22px;
+		margin-bottom:0px;
+		font-size:24px;
+		line-height:27px;
 	}
 	.my-hero-h1{
-		font-size:28px;
-		line-height:32px;
-		margin-bottom:5px;
+		font-size:34px;
+		line-height:37px;
 		text-align:center;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 10px 0px;
 	}
 	.my-hero-h2{
 		font-weight:normal;
 		font-size:30px;
 		line-height:35px;
+		padding-bottom:10px;
 	}
 	.img-cube{
-		margin:10px 10px 10px 10px;
-	}
-	.my-caption{
+		margin:0px 0px 0px 0px;
 	}
 	.my-hero-h3{
 		font-size:21px;
-		font-weight:900;
+		font-weight:normal;
+		line-height:23px;
 		margin:0px 0px 0px 0px;
-		padding:0px 0px 0px 0px;
+		padding:0px 0px 10px 0px;
 	}
-	.item{
-		padding:10px 0px 0px 0px;
-	}
-	.tickets{
-		text-align:right;
-		font-size:20px;
-		line-height:22px;
-		font-weight:900;
-		color:#153271!important;
+	.my-h2{
+		font-size:30px;
+		line-height:33px;
+		color:#1A4384!important;
+		font-weight:normal;
 		margin:0px 0px 0px 0px;
-		padding:0px 0px 0px 0px;
+		padding:0px 0px 0px 20px;
 	}
-	.light{
-		font-weight:100;
+	.img-too{
 	}
-	.menu-category{
-		text-decoration:none;
-		text-align:center;
+	.my-h5-indent{
+		padding-left:40px;
+		color:rgba(0,0,0,0.90)!important;
+		padding-right:30px;
+		padding-bottom:5px;
+	}
+	.cancel{
+		font-size:34px;
+		line-height:37px;
 	}
 	
 }
@@ -690,23 +789,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 @media (max-width: 767px){
 	.my-h4{
 		font-size:22px;
-		line-height:26px;
-		margin-bottom:5px;
+		line-height:25px;
+		background-color:rgba(255,255,255,0.90);
+		padding-left:20px;
+		padding-bottom:5px;
+		margin:0px 0px 0px 0px;
 	}
 	.my-h3{
-		margin-bottom:5px;
 		padding-left:20px;
 		font-size:24px;
+		margin-bottom:0px;
 	}
 	.my-hero-h1{
 		text-align:center;
-		line-height:28px;
-		font-size:24px;
+		line-height:30px;
+		font-size:30px;
 		margin-bottom:0px;
 		margin-top:0px;
 	}
 	.my-hero-h3{
-		font-size:15px;
+		line-height:21px;
+		font-size:18px;
 	}
 	.my-nav-list{
 		line-height:18px;
@@ -715,14 +818,52 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	}
 	.my-nav-list:active{
 	}
-	.tickets{
-		margin-top:10px;
+	.my-h2{
+		text-align:left;
+		line-height:31px;
+		font-size:28px;
+		padding-bottom:10px;
+		padding-left:20px;
 	}
-	.menu-category{
-		padding-top:15px;
+	.my-h5{
+		background-color:rgba(255,255,255,0.90);
+		color:rgba(0,0,0,0.80)!important;
+		line-height:23px;
+		padding:0px 20px 0px 20px;
 	}
-	.item{
-		padding-top:5px;
+	.img-cube{
+	}
+	.my-h5-indent{
+		font-weight:normal;
+		color:rgba(0,0,0,0.80)!important;
+		padding-bottom:5px;
+	}
+	.my-h6{
+		font-weight:normal;
+		padding-right:10px;
+	}
+	.my-h5-culture{
+		text-align:justify;
+	}
+	.link-style{
+		font-weight:bold;
+	}
+	.img-food{
+		padding-right:20px;
+		padding-bottom:20px;
+	}
+	.img-dance{
+		padding:0px 20px 20px 20px;
+	}
+	.img-music{
+		padding-right:20px;
+	}
+	.img-faith{
+		padding-left:20px;
+		padding-top:0px;
+	}
+	.cancel{
+		font-size:30px;
 	}
 	
 }
@@ -730,25 +871,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 @media (max-width: 575px){
 	.footer-link{
 		text-align:center;
+		margin:1px 0px 0px 0px;
+		padding:1px 0px 0px 0px;
 	}
 	.my-hero-h1{
-		font-size:20px;
-		line-height:24px;
+		line-height:23px;
 		margin-bottom:0px;
 		margin-top:0px;
-		padding:0px 0px 0px 0px;
+		font-size:20px;
+		padding:0px 0px 10px 0px;
 	}
 	.my-h2{
-		font-size:30px;
-		line-height:34px;
-		padding-top:5px;
+		font-size:26px;
+		line-height:29px;
+		color:#1A4384!important;
+		padding:0px 0px 0px 10px;
 	}
 	.my-h3{
-		font-size:25px;
-		margin-bottom:2px;
+		font-size:20px;
+		margin-bottom:0px;
+		line-height:23px;
+		padding-right:20px;
 	}
-	.my-h5{
+	.my-h5-footer{
 		font-size:16px;
+		color:#FFFFFF!important;
 	}
 	.navbar-brand img{
 		width:75px;
@@ -757,35 +904,91 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 		font-size:20px;
 	}
 	.img-cube{
-		;
+		margin:0px 0px 0px 0px;
+		padding:10px 10px 10px 10px;
 	}
 	.my-h4{
-		font-size:22px;
-		margin-left:0px;
+		line-height:21px;
+		background-color:rgba(255,255,255,0.90);
+		color:#1A4384!important;
+		font-size:18px;
+		margin:0px 0px 0px 0px;
+		padding:5px 10px 0px 10px;
 	}
 	.white{
 	}
 	.my-hero-h3{
-		line-height:18px;
+		font-size:18px;
+		line-height:21px;
+		margin:0px 0px 0px 0px;
+		padding:5px 5px 5px 5px;
 	}
-	.item{
-		font-size:16px;
-		line-height:18px;
-		padding:10px 0px 0px 0px;
+	.my-h5-indent{
+		font-size:17px;
+		line-height:19px;
+		padding:0px 10px 5px 25px;
 	}
-	.ingredients{
+	.my-hero-2{
+		font-size:24px;
+		line-height:27px;
+		text-align:center;
+		padding-top:5px;
+		margin-bottom:5px;
+	}
+	.my-h5{
+		font-size:18px;
+		line-height:20px;
+		background-color:rgba(255,255,255,0.90);
+		padding:0px 10px 10px 10px;
+	}
+	.img-food{
+		background-color:rgba(255,255,255,0.90);
+		padding:0px 10px 10px 10px;
+	}
+	.img-dance{
+		background-color:rgba(255,255,255,0.90);
+		padding:0px 10px 10px 10px;
+	}
+	.img-music{
+		background-color:rgba(255,255,255,0.90);
+		margin:0px 0px 0px 0px;
+		padding:0px 10px 10px 10px;
+	}
+	.img-faith{
+		background-color:rgba(255,255,255,0.90);
+		padding-right:10px;
+		padding-bottom:10px;
+		padding-left:10px;
+	}
+	.my-hero-h2{
+		font-size:22px;
+		line-height:23px;
+	}
+	.img-bgf{
+		margin:0px 0px 0px 0px;
+		padding:10px 10px 10px 10px;
+	}
+	.vegetarian{
+	}
+	.h4-style{
+		width:100%;
+	}
+	.img-troupes{
+		padding:10px 10px 10px 10px;
+	}
+	.my-h5-culture{
+		padding-left:10px;
+		line-height:22px;
+	}
+	.my-h6{
 		font-size:15px;
 		line-height:17px;
-		padding:0px 0px 0px 10px;
+		padding-left:10px;
+		padding-right:10px;
 	}
-	.light{
-		font-size:16px;
-		line-height:18px;
-	}
-	.tickets{
-		font-size:16px;
-		line-height:18px;
-		margin-top:0px;
+	.cancel{
+		font-size:22px;
+		line-height:27px;
 	}
 	
 }
